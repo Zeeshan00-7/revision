@@ -1,11 +1,12 @@
 import './App.css';
-import Calculator from './Calculator';
+import Ass3 from './Ass3';
+// import Calculator from './Calculator';
 
 function App() {
   return (
     <div className="App">
-      <Calculator/>
-
+      {/* <Calculator/> */}
+      <Ass3/>
 
 
     </div>
