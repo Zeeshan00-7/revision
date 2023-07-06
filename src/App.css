@@ -75,8 +75,8 @@ button.clear-button:hover {
 } */ 
 
 
-/* ASS - 3 */
-.table-generator {
+/*  input ass 3 */
+/* .table-generator {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -99,6 +99,37 @@ th, td {
   padding: 8px;
   text-align: left;
   background: rgb(173, 255, 252);
+}
+
+th {
+  background-color: #f2f2f2;
+} */
+/* ASS 3  */
+.multiplication-table {
+  background: rgb(1, 184, 1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.input-field {
+  margin-bottom: 10px;
+
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 500px;
+  margin-top: 10px;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  background: yellow;
+  text-align: left;
 }
 
 th {
